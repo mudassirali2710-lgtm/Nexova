@@ -1,0 +1,58 @@
+import { DepartmentInfo } from "@/types";
+
+export const initialDepartments: DepartmentInfo[] = [
+  {
+    name: "Management",
+    memberCount: 3,
+    activeOrders: 18,
+    completedOrders: 142,
+    workloadPercent: 78,
+    outputMetric: "98.4% SLA Adherence",
+    description: "Production scheduling, digitizing quality control, client escalation, and studio operations.",
+  },
+  {
+    name: "Sales & Calls",
+    memberCount: 8,
+    activeOrders: 28,
+    completedOrders: 84,
+    workloadPercent: 88,
+    outputMetric: "$20,450 Booked",
+    description: "Inbound quote triage, stitch count estimation, design consultations, and proof approvals.",
+  },
+  {
+    name: "Email / Outreach",
+    memberCount: 4,
+    activeOrders: 14,
+    completedOrders: 36,
+    workloadPercent: 70,
+    outputMetric: "$10,880 Invoiced",
+    description: "Apparel distributor outreach, corporate uniform re-orders, and quote follow-ups.",
+  },
+  {
+    name: "Promotion / Marketing",
+    memberCount: 3,
+    activeOrders: 9,
+    completedOrders: 22,
+    workloadPercent: 64,
+    outputMetric: "62 Inquiries",
+    description: "Embroidery portfolio showcase, seasonal discount campaigns, and stitch proof showcases.",
+  },
+  {
+    name: "Deal Closing",
+    memberCount: 4,
+    activeOrders: 16,
+    completedOrders: 49,
+    workloadPercent: 92,
+    outputMetric: "$17,290 Secured",
+    description: "Corporate fleet uniform contracts, volume order terms, and upfront payment collection.",
+  },
+  {
+    name: "Digitizing / Production",
+    memberCount: 10,
+    activeOrders: 37,
+    completedOrders: 142,
+    workloadPercent: 94,
+    outputMetric: "1.42M Stitches Cut",
+    description: "Wilcom vector preparation, stitch density mapping, underlays, 3D puff, and Tajima machine sew-out testing.",
+  },
+];
